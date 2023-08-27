@@ -53,12 +53,12 @@ In the explorer of the vscode you will see a MAVEN header, expand it and you wil
 The application's functionality relies on the following environment variables:
 ### Configuration
 
-DB_URL: The URL of your MySQL database.
-DB_USERNAME: The username for the database connection.
-DB_PASSWORD: The password for the database connection.
-INFOBIP_BASE_URL: The base URL for SMS and email notifications.
-INFOBIP_API_KEY: The API key for the Infobip service.
-INFOBIP_SENDER_EMAIL_ADDRESS: The sender email address for notifications.
+* **DB_URL**: The URL of your MySQL database.
+* **DB_USERNAME**: The username for the database connection.
+* **DB_PASSWORD**: The password for the database connection.
+* **INFOBIP_BASE_URL**: The base URL for SMS and email notifications.
+* **INFOBIP_API_KEY**: The API key for the Infobip service.
+* **INFOBIP_SENDER_EMAIL_ADDRESS**: The sender email address for notifications.
 
 ## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to submit a pull request.
