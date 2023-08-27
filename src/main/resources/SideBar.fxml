@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="400.0" prefWidth="226.0" style="-fx-min-width: 200; -fx-max-width: 200;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.apman.SideBarController">
+   <children>
+      <Label fx:id="apartmentLabel" alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="60.0" prefWidth="132.0" text="Christina's Place" VBox.vgrow="ALWAYS">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="16.0" />
+         </font></Label>
+      <Button fx:id="dashboardButton" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="34.0" prefWidth="66.0" style="-fx-max-height: 60;" text="Dashboard" VBox.vgrow="ALWAYS" />
+      <Button fx:id="unitListButton" alignment="CENTER" layoutX="10.0" layoutY="70.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="34.0" prefWidth="66.0" style="-fx-max-height: 60;" text="Units" VBox.vgrow="ALWAYS" />
+      <Button fx:id="tenantListButton" alignment="CENTER" layoutX="10.0" layoutY="104.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="34.0" prefWidth="66.0" style="-fx-max-height: 60;" text="Tenants" VBox.vgrow="ALWAYS" />
+      <Separator maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" orientation="VERTICAL" prefHeight="135.0" prefWidth="167.0" VBox.vgrow="ALWAYS" />
+      <Button fx:id="userListButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="39.0" prefWidth="231.0" style="-fx-max-height: 60;" text="Users" VBox.vgrow="ALWAYS" />
+      <Button fx:id="roleListButton" alignment="CENTER" layoutX="10.0" layoutY="104.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="34.0" prefWidth="66.0" style="-fx-max-height: 60;" text="Roles" VBox.vgrow="ALWAYS" />
+      <Button fx:id="logListButton" alignment="CENTER" layoutX="10.0" layoutY="308.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="34.0" prefWidth="66.0" style="-fx-max-height: 60;" text="Activity Logs" VBox.vgrow="ALWAYS" />
+      <Separator layoutX="10.0" layoutY="168.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" orientation="VERTICAL" prefHeight="52.0" prefWidth="200.0" VBox.vgrow="NEVER" />
+      <Button fx:id="logoutButton" alignment="CENTER" layoutX="10.0" layoutY="138.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="34.0" prefWidth="167.0" style="-fx-max-height: 50;" text="Logout" VBox.vgrow="ALWAYS" />
+   </children>
+</VBox>
