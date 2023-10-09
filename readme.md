@@ -1,5 +1,7 @@
 # Apartment Management System
 
+![Alt text](./assets/dashboard.png "Dashboard")
+
 ## Overview
 
 An apartment management system allowing apartment owners to track their apartments.
