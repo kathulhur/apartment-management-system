@@ -312,7 +312,6 @@ public class App extends Application {
                                 .uniqueResult();
                                 
             userQuerySession.close();
-
             if (storedUser != null && storedUser.getEmail().equals(email) && storedUser.getPassword().equals(password)) {
                 try {
                     Session loginSession = sessionFactory.openSession();
